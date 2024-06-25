@@ -1,3 +1,5 @@
+# Modelo relacional
+
 ## Productos
 
 -   producto_id (PK)
