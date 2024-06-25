@@ -4,7 +4,7 @@ export class TaskManager {
 	private tasks: Task[] = [];
 	private nextId: number = 1;
 
-	addTask(title: string) {
+	addTask(title: string): void {
 		const newTask: Task = {
 			id: this.nextId,
 			title,
